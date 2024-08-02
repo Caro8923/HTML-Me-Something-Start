@@ -1,1 +1,53 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: lightpink;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeading {
+    color: red;
+    text-align: center;
+    margin-block-end: 80px
+}
+
+ul {
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+nav {
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.heading {
+    color:hotpink;
+    text-align: center;
+}
+
+#caption {
+    color: white;
+    text-align: center;
+}
+
+#paragraph {
+    color: rgb(198, 83, 141);
+    text-align: center;
+}
+
+#testP {
+    color: green;
+}
+
+.funParagraph {
+
+}

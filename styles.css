@@ -3,34 +3,44 @@ body {
     display: block;
     background-color: lightpink;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color:rgb(198, 83, 141);
+    border-style: solid; 
+    border-width: 0px 100px 0px 100px;
 }
 
 #mainHeading {
     color: red;
     text-align: center;
-    margin-block-end: 80px
+    margin-block-end: 80px;
+    padding-top: 50px
 }
 
 ul {
-    margin-block-start: 80px;
-    margin-block-end: 80px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    margin-block-start: 60px;
+    margin-block-end: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-type: none;
 }
 
-nav {
-    text-align: center;
+li {
+    display: inline;
+    padding-inline-start: 30px;
 }
 
 img {
-    border-radius: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .heading {
-    color:hotpink;
+    color: hotpink;
     text-align: center;
 }
 
@@ -42,12 +52,21 @@ img {
 #paragraph {
     color: rgb(198, 83, 141);
     text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-bottom: 100px;
+    font-style: italic;
 }
 
 #testP {
-    color: green;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 100px;
+    font-style: italic;
 }
 
 .funParagraph {
-
+    color: green
 }
